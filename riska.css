@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hedeo {
+    width: 200%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+    font-family: calibri;
+}
+
+h1:hover {
+    cursor: pointer;
+    transition: .3s;
+    letter-spacing: 6px;
+}
+
+.takoyaki {
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+}
+
+ol li {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    font-family: calibri;
+    color: brown;
+}
+
+ol li:hover {
+    cursor: pointer;
+    letter-spacing: 4px;
+    transition: .3s;
+}
+
+.ramyeon {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: calibri;
+    color: orange;
+}
+
+.ramyeon:hover {
+    cursor: pointer;
+    letter-spacing: 6px;
+    transition: .3s;
+}
+
+.ttopokki {
+    width: 100%;
+    margin: auto;
+    background-color: green;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    border-radius: 30px;
+    font-family: calibri;
+    box-shadow: 6px 6px 8px 4px black;
+}
+
+.kimbab {
+    font-size: 29px;
+    margin-top: 20px;
+    text-align: center;
+    color: lavender;
+}
+
+label {
+    font-size: 19px;
+    font-weight: bold;
+    color: yellow;
+}
+
+.jjajangmyeon {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.pecel, select {
+    width: 100%;
+    padding: 15px 25px;
+    margin: 7px 0;
+    display: inline-block;
+    border: 2px solid ivory;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input[type=radio] {
+    margin: 30px;
+}
+
+input[type=file] {
+    background-color: purple;
+    border: none;
+    font-size: 15px;
+    color: white;
+}
+
+button {
+    width: 100%;
+    background-color: pink;
+    color: black;
+    padding: 15px 23px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:pink;
+    transition: .3s;
+}
+
+@media only screen and (max-width: 768px) {
+    .headeo img{
+    width: 100%;
+    }
+
+    body {
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-size: 15px;
+    }
+
+    ol li {
+        font-size: 10px;
+    }
+
+    .lele {
+        font-size: 12px;
+    }
+
+    .ttopokki {
+        padding: 16px;
+    }
+
+    .kimbab {
+        font-size:20px;
+    }
+
+    label {
+        font-size: 15px;
+    }
+
+    .jjajangmyeon {
+        font-size: 10px;
+    }
+
+    .pecel, select {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    input[type=file] {
+        font-size: 25px;
+    }
+
+    button {
+        padding: 12px 14px;
+        margin: 12px 0;
+        cursor: pointer;
+        font-size: 17px;
+    }
+    
+}
